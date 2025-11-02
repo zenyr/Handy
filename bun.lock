@@ -4,6 +4,7 @@
     "": {
       "name": "handy-app",
       "dependencies": {
+        "@re-dev/react-truncate": "^0.5.2",
         "@tailwindcss/vite": "^4.1.16",
         "@tauri-apps/api": "^2.9.0",
         "@tauri-apps/plugin-autostart": "~2.5.1",
@@ -136,6 +137,8 @@
     "@jridgewell/sourcemap-codec": ["@jridgewell/sourcemap-codec@1.5.5", "", {}, "sha512-cYQ9310grqxueWbl+WuIUIaiUaDcj7WOq5fVhEljNVgRfOUhY9fy2zTvfoqWsnebh8Sl70VScFbICvJnLKB0Og=="],
 
     "@jridgewell/trace-mapping": ["@jridgewell/trace-mapping@0.3.31", "", { "dependencies": { "@jridgewell/resolve-uri": "^3.1.0", "@jridgewell/sourcemap-codec": "^1.4.14" } }, "sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw=="],
+
+    "@re-dev/react-truncate": ["@re-dev/react-truncate@0.5.2", "", { "peerDependencies": { "react": ">=19.0.0 || >=18.0.0 || >=17.0.0 || >=16.0.0", "react-dom": ">=19.0.0 || >=18.0.0 || >=17.0.0 || >=16.0.0" } }, "sha512-OmmS/qA4d5ofnAiw7jjGh5eRpil+AQkUX0AD9XYTJ5TuI9Fu0ezXaggv3M2ZxTTNsGkaP1O48Tw2VDBtKlor2g=="],
 
     "@rolldown/pluginutils": ["@rolldown/pluginutils@1.0.0-beta.27", "", {}, "sha512-+d0F4MKMCbeVUJwG96uQ4SgAznZNSq93I3V+9NHA4OpvqG8mRCpGdKmK8l/dl02h2CCDHwW2FqilnTyDcAnqjA=="],
 
